@@ -2,7 +2,9 @@
 
 This repository is sample script of shared cache with multiple nginx in vagrant environment
 
-## Summary
+## Overview
+
+![](./images/nginx_shared_cache.png)
 
 ## Usage
 
@@ -52,7 +54,11 @@ You can browse this environment by accessing localhost(http://127.0.0.1).
 
 - Shared cache server directly
 
-You can confirm shared cache server state by accessing localhost:9001(http://127.0.0.1:9001) or localhost:9002(http://127.0.0.1:9002)
+You can confirm shared cache server state by accessing localhost:9001(http://127.0.0.1:9001) or localhost:9002(http://127.0.0.1:9002).
+
+- Delete shared cache
+
+You can delete shared cache to access localhost/_purege(/.*).
 
 ## See Also
 
