@@ -1,8 +1,8 @@
 Vagrant.configure("2") do |config|
 
-#  config.vm.provision :shell, path: "bootstrap.sh"
-  config.vm.provision :shell, path: "scripts/hosts.sh"
-  config.vm.provision :shell, path: "scripts/nginx_setup.sh"
+  config.vm.provision :file, source: "files/common", destination: "."
+  config.vm.provision :shell, path: "scripts/common/hosts.sh"
+  config.vm.provision :shell, path: "scripts/common/nginx_setup.sh"
 
   # lb001
   config.vm.define :lb001 do |v|

@@ -17,3 +17,11 @@ cd /usr/local/src/nginx-1.12.1
 make
 make install
 
+cp /home/vagrant/common/etc/init.d/nginx /etc/init.d/nginx
+cp /home/vagrant/common/etc/sysconfig/nginx /etc/sysconfig/nginx
+
+chmod 755 /etc/init.d/nginx
+service nginx start
+
+chkconfig --add nginx
+chkconfig nginx on
