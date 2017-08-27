@@ -16,11 +16,9 @@ $ vagrant box list
 centos67 (virtualbox, 0)
 ```
 
-### Instration
-
 - change your website
 
-You should change **proxy_pass "https://example.com";** in files/cache/usr/local/nginx/conf/conf.d/cache.conf to confirm shared cache state.
+You should change **'proxy_pass "https://example.com";'** in **'files/cache/usr/local/nginx/conf/conf.d/cache.conf'** to confirm shared cache state.
 
 For example
 
@@ -35,6 +33,8 @@ For example
         .
         .
 ```
+
+### Instration
 
 - how to install
 
