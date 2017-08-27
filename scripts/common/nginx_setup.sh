@@ -19,9 +19,11 @@ make install
 
 cp /home/vagrant/common/etc/init.d/nginx /etc/init.d/nginx
 cp /home/vagrant/common/etc/sysconfig/nginx /etc/sysconfig/nginx
+mkdir /var/log/nginx
+cp /home/vagrant/common/usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf
 
 chmod 755 /etc/init.d/nginx
-service nginx start
 
 chkconfig --add nginx
 chkconfig nginx on
+
