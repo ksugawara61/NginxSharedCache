@@ -46,13 +46,13 @@ $ vagrant.exe up
 
 ### Browse
 
-- Via loadbalancer
+- Via loadbalancer server
 
 You can browse this environment by accessing localhost(http://127.0.0.1).
 
 - Shared cache server directly
 
-You can check shared cache server status by accessing localhost:9001(http://127.0.0.1:9001) or localhost:9002(http://127.0.0.1:9002)
+You can confirm shared cache server state by accessing localhost:9001(http://127.0.0.1:9001) or localhost:9002(http://127.0.0.1:9002)
 
 ## See Also
 
