@@ -43,7 +43,7 @@ For example
 You can install shared cache environment with multiple nginx easily.
 
 ```
-$ vagrant.exe up
+$ vagrant up
 ```
 
 ### Browse
@@ -60,7 +60,7 @@ You can confirm shared cache server state by accessing localhost:9001(http://127
 
 You can delete shared cache to access localhost/_purege(/.*).
 
-## See Also
+## Reference
 
 - [Shared Caches with NGINX Plus Cache Clusters, Part 1](https://www.nginx.com/blog/shared-caches-nginx-plus-cache-clusters-part-1/)
 - [nginx.org](http://nginx.org/)
